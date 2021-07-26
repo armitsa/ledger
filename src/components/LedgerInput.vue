@@ -19,9 +19,8 @@
         </div>
 
         <div>
-            <button @click="income(1)">Income</button>
-            <button @click="income(-1)">Expense</button>
-            <button @click="addOrder">OK</button>
+            <button @click="addOrder(1)">Income</button>
+            <button @click="addOrder(-1)">Expense</button>
         </div>
 
     </div>
@@ -52,7 +51,10 @@ export default {
                 amount:'',
             }
         },
-        addOrder() {
+        addOrder(type) {
+            this.type = type;
+            console.log(type)
+            
             if(this.type === -1){
                 this.form.amount = (-1)*this.form.amount;
             }
@@ -70,10 +72,6 @@ export default {
 
             this.clearForm()
         },
-        income(type){
-            this.type = type;
-            console.log(type);
-        }
     }
 }
 </script>

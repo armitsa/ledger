@@ -12,8 +12,8 @@
 - type your date in text-field such as 27-07-2021 (format dd-mm-yyyy)
 - type your explantation on that day in text-field such as payroll, buy something, etc.
 - type your amount of money in text-field.
-    - if your amount is a income you should click Income botton and click OK
-    - if your amount is a expense you should click Expense botton and click OK
+    - if your amount is a income you should click Income botton.
+    - if your amount is a expense you should click Expense botton.
 
 ## วิธีการ run
 1. เปิด terminals ใน Laragon
@@ -27,5 +27,5 @@
 - พิมพ์ วัน-เดือน-ปี ลงในช่องใส่ข้อความด้านข้าง Date: เช่น 27-07-2021
 - พิมพ์ คำอธิบาย ลงในช่องใส่ข้อความด้านข้าง Explantations: เช่น เงินเดือน, ซื้อของต่างๆ และอื่นๆ
 - พิมพ์ จำนวนเงิน ลงในช่องใส่ข้อความด้านข้าง Amount:
-    - ถ้าหากจำนวนเงินที่พิมพ์ลงในช่องเป็น รายได้ ให้กดปุ่ม Income แล้วกดปุ่ม OK
-    - ถ้าหากจำนวนเงินที่พิมพ์ลงในช่องเป็น รายจ่าย ให้กดปุ่ม Expense แล้วกดปุ่ม OK
+    - ถ้าหากจำนวนเงินที่พิมพ์ลงในช่องเป็น รายได้ แล้วกดปุ่ม Income 
+    - ถ้าหากจำนวนเงินที่พิมพ์ลงในช่องเป็น รายจ่าย แล้วกดปุ่ม Expense
