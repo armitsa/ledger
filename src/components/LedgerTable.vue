@@ -3,7 +3,7 @@
       <table>
         <thead>
           <tr>
-            <th> # </th>
+            <th> No. </th>
             <th> Date </th>
             <th> Explantation </th>
             <th> Amount </th>
@@ -48,6 +48,7 @@ export default {
       this.orders = OrderStore.getters.orders
     },
   },
+
 }
 </script>
 

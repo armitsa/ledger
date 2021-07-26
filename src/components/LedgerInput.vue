@@ -4,17 +4,17 @@
 
     <div>
         <div>
-            <label for="date">Date</label>
+            <label for="date">Date :</label>
             <input type="text" v-model="form.date">
         </div>
 
         <div>
-            <label for="explantation">Explantation</label>
+            <label for="explantation">Explantation :</label>
             <input type="text" v-model="form.explantation">
         </div>
 
         <div>
-            <label for="amount">Amount</label>
+            <label for="amount">Amount :</label>
             <input type="text" v-model="form.amount">
         </div>
 
@@ -41,7 +41,7 @@ export default {
                 explantation: '',
                 amount:'',
             },
-            balance: 0
+            balance: 4500
         }
     },
     methods: {
