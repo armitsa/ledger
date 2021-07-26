@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "date": "27-06-2021",
+            "type": 1,
+            "explantation": "payroll",
+            "amount": 10000,
+            "balance": 10000
+        },
+        {
+            "date": "30-06-2021",
+            "type": -1,
+            "explantation": "food",
+            "amount": -500,
+            "balance": 9500
+        },
+        {
+            "date": "07-07-2021",
+            "type": -1,
+            "explantation": "ergonomic chair",
+            "amount": -5000,
+            "balance": 4500
+        }
+    ]
+}
